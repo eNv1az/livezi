@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.548),rgba(255, 255, 255, 0.493)), url(../img/livada.jpg);
+    height: 100vh;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    p {
+        padding: 0px 30px 0px 30px;
+    }
+
+    #cent {
+        text-align: center;
+    }
+    header{
+        background: linear-gradient(rgb(17, 69, 17), rgb(72, 159, 72));
+        height: 45px;
+    }
+    futer{
+        background: radial-gradient(rgb(238, 104, 104), green);
+    }
