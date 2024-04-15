@@ -1,23 +1,85 @@
+
+
 body {
-    background: linear-gradient(rgba(255, 255, 255, 0.548),rgba(255, 255, 255, 0.493)), url(../img/livada.jpg);
-    height: 100vh;
-    }
+    background: linear-gradient(rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0.493)), url(../img/livada.jpg);
+    height: 760px;
+    margin: 0;
+}
 
-    h4 {
-        text-align: center;
-    }
 
-    p {
-        padding: 0px 30px 0px 30px;
-    }
+h2 {
+    color: rgb(51, 86, 27);
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 1px;
+    text-align: center;
+}
 
-    #cent {
-        text-align: center;
-    }
-    header{
-        background: linear-gradient(rgb(17, 69, 17), rgb(72, 159, 72));
-        height: 45px;
-    }
-    futer{
-        background: radial-gradient(rgb(238, 104, 104), green);
-    }
+p {
+    font-size: 22px;
+    margin-top: 0px;
+    text-indent: 20px;
+
+}
+
+#prg {
+    padding: 0px 30px 0px 30px;
+}
+
+main {
+    padding-bottom: 380px;
+}
+
+#cent {
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+header {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: linear-gradient(rgb(44, 59, 44), rgb(103, 135, 103));
+    height: 30px;
+}
+
+footer {
+    margin-bottom: 0px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    background: radial-gradient(rgb(0, 138, 46), rgb(255, 159, 118));
+}
+
+#aqmr {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+}
+
+#wht {
+
+    padding-right: 0px;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    background-color: white;
+    margin-bottom: 0px;
+
+}
+
+img {
+
+    position: fixed;
+    right: 0;
+    -webkit-filter: drop-shadow(5px 5px 5px #00cc30);
+    filter: drop-shadow(5px 5px 5px #00ff2f);
+    height: 60px;
+}
